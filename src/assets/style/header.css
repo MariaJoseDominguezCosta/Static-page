@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.search {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12px;
+    left: 30%;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    position: relative;
+}
+
+header img {
+    width: 115px;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+
+}
+
+header h1 {
+    position: absolute;
+    left: 65%;
+    top: -12px;
+    color: rgb(0, 0, 0);
+}

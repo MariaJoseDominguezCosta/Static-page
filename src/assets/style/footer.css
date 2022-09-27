@@ -1,0 +1,40 @@
+footer {
+    background-color: #00ffff;
+    position: absolute;
+    margin: auto;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(0, 0, 0)
+}
+
+img {
+    width: 40px;
+    margin: 5px;
+    position: relative;
+}
+
+
+ul {
+    position: absolute;
+    width: 100px;
+    top: 40px;
+    right: 30vh;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+ul li a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+ul li a:hover {
+    color: #FF4F51;
+}
