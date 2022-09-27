@@ -2,8 +2,9 @@
     width: 100%;
     border: 2px solid rgb(0, 0, 0);
     flex-direction: column;
-    justify-content: space-between;
-    background-color: black;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
 }
 
 p {
@@ -11,7 +12,11 @@ p {
     color: aliceblue;
     font-size: 19px;
 }
-
+ 
+.imageDiv{
+    display: flex;
+    justify-content:center;
+}
 .imgArtist {
     justify-content: space-evenly;
     width: 40vh;
