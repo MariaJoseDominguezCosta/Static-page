@@ -2,7 +2,7 @@
     width: 100%;
     border: 2px solid rgb(0, 0, 0);
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: black;
 }
 
@@ -13,10 +13,9 @@ p {
 }
 
 .imgArtist {
-    flex-direction: row;
-    justify-content: space-around;
-    width: 30vh;
-    height: 40vh;
+    justify-content: space-evenly;
+    width: 40vh;
+    height: 50vh;
     margin: 5px;
-    align-items: center;
+    align-items:center;
 }
