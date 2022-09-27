@@ -16,8 +16,8 @@ const Header = () => {
                     value={search}
                     autoComplete='off'
                     className='search'
-                    onChange={ev => setSearch(ev.target.value)}></input> */}
-                <button type='submit' className='search'>Buscar</button>
+                    onChange={ev => setSearch(ev.target.value)}></input> 
+                <button type='submit' className='search'>Buscar</button>*/}
                 <h1>TOMORROW BY TOGETHER</h1>
             </header>
         </form>
