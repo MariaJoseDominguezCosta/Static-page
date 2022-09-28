@@ -1,5 +1,5 @@
 import '../assets/style/artista.css'
-import Card from './Card';
+import CardArtist from  './CardArtist';
 //beomgyu
 import Beomgyu from '../assets/img/Beomgyu.png';
 import Beomgyu2 from '../assets/img/Beomgyu2.png';
@@ -80,10 +80,9 @@ function Artista() {
   return (
     <>
       <h2><strong>MIEMBROS</strong></h2>
-
       {users.map((user) => {
         return (
-          <Card
+          <CardArtist
             key={user.id}
             name={user.name}
             lastName={user.lastName}
